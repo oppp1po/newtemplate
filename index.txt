@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="uni-img/University logo with laurel wreath Logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark icon" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about- Copy.html">ABOUT</a></li>
+                    <li><a href="courses- Copy.html">COURSES</a></li>
+                    <li><a href="blogs - Copy.html">BLOGS</a></li>
+                    <li><a href="contactus- Copy.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars icon" onclick="showmenu()"></i>
+        </nav>
+        <div class="text">
+            <h1>University Of Creating The Future</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum facere iure expedita soluta dolorum, quas eveniet magni perferendis officiis, veniam error, magnam illo accusamus dolor facilis quae quia laborum nostrum!</p>
+            <a href="" class="btn">View More To Know</a>
+        </div>
+    </section>
+    <section class="courses">
+        <h1>Our Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, incidunt.</p>
+        <div class="row">
+            <div class="column">
+                <h3>Challange</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nesciunt earum quibusdam error asperiores magni commodi reprehenderit maxime dignissimos cum.  </p>
+            </div>
+            <div class="column">
+                <h3>Professional</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nesciunt earum quibusdam error asperiores magni commodi reprehenderit maxime dignissimos cum.  </p>
+            </div>
+            <div class="column">
+                <h3>Advanced</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nesciunt earum quibusdam error asperiores magni commodi reprehenderit maxime dignissimos cum.  </p>
+            </div>
+        </div>
+    </section>
+    <section class="compus">
+        <h1>Our Global Compus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla nesciunt assumenda ab odit excepturi.</p>
+        <div class="row">
+            <div class="column2">
+                <img src="uni-img/london.jpg" alt="">
+                <div class="heading"><h3>London</h3></div>
+            </div>
+            <div class="column2">
+                <img src="uni-img/Germany.jpg" alt="">
+                <div class="heading"><h3>Germany</h3></div>
+            </div>
+            <div class="column2">
+                <img src="uni-img/NewYork.jpg" alt="">
+                <div class="heading"><h3>NewYork</h3></div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="featurediv">
+                <img src="uni-img/basketball.jpg" alt="">
+                <div class="heading2">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, voluptatem. Placeat, quas.</p>
+                </div>
+            </div>
+            <div class="featurediv">
+                <img src="uni-img/coffe shop.jpg" alt="">
+                <div class="heading2">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, voluptatem. Placeat, quas.</p>
+                </div>
+            </div>
+            <div class="featurediv">
+                <img src="uni-img/library.jpg" alt="">
+                <div class="heading2">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, voluptatem. Placeat, quas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="student">
+        <h1>What Our Student Say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="review">
+                <img src="uni-img/girl.jpg" alt="">
+                <div class="name"><h3>liza</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptatem dicta distinctio eligendi dolores maiores laboriosam explicabo temporibus libero ducimus ipsa corrupti.</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="review">
+                <img src="uni-img/mac.jpg" alt="">
+                <div class="name"><h3>moe</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptatem dicta distinctio eligendi dolores maiores laboriosam explicabo temporibus libero ducimus ipsa corrupti.</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i></div>
+            </div> 
+            <div class="review">
+                <img src="uni-img/joe.jpg" alt="">
+                <div class="name"><h3>joe</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptatem dicta distinctio eligendi dolores maiores laboriosam explicabo temporibus libero ducimus ipsa corrupti.</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i></div>
+            </div>
+        </div>
+    </section>
+    <section class="enroll">
+        <h1>Enroll For Our Various Courses Anywhere From The World</h1>
+        <a href="" class="btn">contact Us</a>
+    </section>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,
+            laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</p>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made By Eslam Mohamed <i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+    </section>
+    
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function hidemenu(){
+            navLink.style.right ="-200px"
+        }
+        function showmenu(){
+            navLink.style.right = "0px"
+        }
+    </script>
+</body>
+</html>
